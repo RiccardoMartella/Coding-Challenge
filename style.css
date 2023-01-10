@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url(assets/img/background.jpg); 
+    background-size: cover;
+}
+
+#sfondo {
+    background-color: rgba(0,0,0,0.5);
+    height: 90%;
+    width: 70%;
+    margin: 40px auto 0 auto;
+    padding: 50px 100px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#logo {
+    margin-top: 40px;
+    width: 280px;
+}
+
+#titolo {
+    color: rgba(0, 221, 0, 255);
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#contenitore-bottoni {
+    background-color:rgba(0, 221, 0, 255); 
+    padding: 10px;
+}
+
+.contenitore-scelta {
+   text-align: left;
+}
+
+#contenitore-scelta input {
+    margin: 0;
+}
+
+.sotto-titolo {
+    display: inline-block;
+    color: white; 
+    margin-bottom: 0;
+    font-size: 26px;
+}
+
+.percentuale {
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.orancione { background-color: orange; width: 40%; }
+.verde { background-color: green; width: 70%; }
+.rosso { background-color: red; width: 20%; }
+
+.via {
+    margin: 0;
+    color: white;
+}
